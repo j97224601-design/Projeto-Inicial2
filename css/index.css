@@ -1,0 +1,96 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Corpo */
+body{
+    font-family: Arial, sans-serif;
+    background:#e2f3de;
+    color:#6c8f71;
+    line-height:1.6;
+}
+
+/* Menu */
+.menu-visível ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    background: #3a9740;
+    padding: 30px;
+    margin-top: 0px; /* afasta do topo */
+}
+
+.link-menu {
+    background-color: white;
+    color: rgb(46, 117, 53);
+    text-decoration: none;
+    font-weight: bold;
+    padding:10px 20px;
+    
+    
+}
+
+
+.link-menu:hover{
+    color:#b5cab5;
+}
+
+
+/* Imagem principal */
+.img-grande{
+    text-align:center;
+    margin-top:20px;
+}
+
+.img-grande img{
+    width:80%;
+    max-width:900px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+h1{
+    text-align:center;
+    margin-top:20px;
+    color:#3a9740;
+    font-size:2.5rem;
+}
+
+header p{
+    text-align:center;
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
+/* Conteúdo */
+.introdução{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+article{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 2px 8px rgba(7, 7, 7, 0.1);
+}
+
+article h2{
+    color:#3a9740;
+    margin-bottom:15px;
+}
+
+/* Rodapé */
+footer{
+    margin-top:40px;
+    background:#3a9740;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding:20px;
+}
